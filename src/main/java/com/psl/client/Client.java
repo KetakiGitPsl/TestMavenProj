@@ -54,7 +54,7 @@ public class Client {
 		Performer p = (Performer) context.getBean("performer");
 		p.perform();// primary concern
 		
-	
+	System.out.println("Done");
 //		System.out.println("Done retrieving employees");
 		
 		
